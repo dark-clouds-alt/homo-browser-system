@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>СПП</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+  </head>
+  <body>
+    <h1>СПП</h1>
+    <div class="buttons">
+      <button
+        id="activate"
+        class="btn"
+        onclick="new Audio('./audio/activation.mp3').play(); return false;"
+      >
+        <span>Активировать</span>
+      </button>
+      <button
+        id="peep"
+        class="btn"
+        onclick="new Audio('./audio/peep.mp3').play(); return false;"
+      >
+        <span>Пиик!</span>
+      </button>
+      <button
+        id="done"
+        class="btn"
+        onclick="new Audio('./audio/done.mp3').play(); return false;"
+      >
+        <span>Найти</span>
+      </button>
+    </div>
+  </body>
+</html>
