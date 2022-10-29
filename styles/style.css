@@ -5,6 +5,9 @@
 
 body {
   background-image: url(https://thumbs.gfycat.com/AncientMetallicBluejay-size_restricted.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0;
 }
 
 .buttons {
